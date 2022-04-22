@@ -1,0 +1,11 @@
+v=int(input())
+r=0
+t=v
+while(v):
+    p=v%10
+    r=r+p
+    v=v//10
+if(t%r==0):
+    print("True")
+else:
+    print("False")
