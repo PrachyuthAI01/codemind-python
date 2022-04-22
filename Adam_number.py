@@ -1,0 +1,17 @@
+p=int(input())
+l=0
+f=0
+v=p*p
+while(p):
+    r=p%10
+    l=l*10+r
+    p=p//10
+s=l*l
+while(s):
+    d=s%10
+    f=f*10+d
+    s=s//10
+if(v==f):
+    print("True")
+else:
+    print("False")
