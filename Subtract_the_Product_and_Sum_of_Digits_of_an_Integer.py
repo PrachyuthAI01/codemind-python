@@ -1,0 +1,10 @@
+v=int(input())
+sum=0
+pro=1
+while(v):
+    d=v%10
+    pro=pro*d
+    sum=sum+d
+    v=v//10
+x=pro-sum
+print(x)
