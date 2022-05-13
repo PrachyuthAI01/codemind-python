@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+    int i;
+    char s[100],t;
+    scanf("%[^\n]s",s);
+    for(i=0;s[i]!='\0';i++)
+    {
+        t=tolower(s[i]);
+        printf("%c",t);
+    }
+}
