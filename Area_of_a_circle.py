@@ -1,4 +1,4 @@
 r=int(input())
 pi=3.14
-v=pi*r*r
-print("%0.2f"%v)
+s=pi*r**2
+print(s)
