@@ -1,16 +1,14 @@
 v=int(input())
-p=int(input())
-t=v
-x=p
-d=0
-r=0
-for i in range(1,v):
+k=int(input())
+a=0
+for i in range(1,(v//2)+1,1):
     if(v%i==0):
-        r=r+i
-for f in range(1,p):
-    if(p%f==0):
-        d=d+f
-if(d==t and r==x):
-    print("Amicable")
+        a+=i
+b=0
+for i in range(1,(k//2)+1,1):
+    if(k%i==0):
+        b+=i
+if(a==k and b==v):
+    print('Amicable')
 else:
-    print("Not Amicable")
+    print('Not Amicable')
