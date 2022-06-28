@@ -5,8 +5,8 @@ while(n>0):
     l+=1
     n=n//10
 n=t*t
-n=n%pow(10,l)
+n=n%(pow(10,l))
 if(t==n):
-    print("Automorphic Number")
+    print('Automorphic Number')
 else:
-    print("Not an Automorphic Number")
+    print('Not an Automorphic Number')
