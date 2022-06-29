@@ -1,12 +1,7 @@
-v=int(input())
-r=0
-t=v
-while(v):
-    l=v%10
-    r=r*10+l
-    v=v//10
-if(t==r):
-    print("True")
+n=int(input())
+s=str(n)
+d=s[::-1]
+if(d==s):
+    print(True)
 else:
-    print("False")
-
+    print(False)
