@@ -1,6 +1,9 @@
-s=input()
+n=input()
+a='abcdefghijklmnopqrstuvwxyz'
 c=0
-for i in s:
-    if(i.islower()):
-        c+=1;
+for i in n:
+    if i in a:
+        c+=1
+    else:
+        continue
 print(c)
