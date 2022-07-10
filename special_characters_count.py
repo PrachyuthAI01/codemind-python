@@ -1,7 +1,9 @@
-a='abcdefghijklmno pqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
-s=input()
+n=input()
+a='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '
 c=0
-for i in s:
-    if i not in a:
+for i in n:
+    if i in a:
+        continue
+    else:
         c+=1
 print(c)
